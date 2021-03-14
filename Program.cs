@@ -5,8 +5,9 @@ class minhaClasse{
     static void Main(string[] args) { 
 
             int a, b, x;
-            a = Convert.ToInt32(Console.ReadLine());
-            b = Convert.ToInt32(Console.ReadLine());
+            string[] leitura = Console.ReadLine().Split();
+            a = Convert.ToInt32(leitura[0]);
+            b = Convert.ToInt32(leitura[1]);
 
             x = a + b; //complete o código de acordo com o cálculo esperado
 
